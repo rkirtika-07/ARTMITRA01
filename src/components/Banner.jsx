@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom';
+export default function Banner() { return <section className="banner"><img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=1800&q=90" alt="Art gallery painting"/><div className="banner-shade"/><div className="banner-content"><p className="eyebrow">ART THAT SPEAKS TO YOU</p><h1>Discover art.<br/><em>Find your story.</em></h1><p>Explore original artworks from independent artists and creators.</p><Link to="/artworks" className="primary-button">Explore Gallery</Link></div></section>; }

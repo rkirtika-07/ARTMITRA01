@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom';
+export default function Footer() { return <footer className="footer"><div><h2>ARTORA</h2><p>Discover original art. Support creative minds.</p></div><div><b>Explore</b><Link to="/artworks">Artworks</Link><Link to="/artists">Artists</Link><Link to="/auctions">Auctions</Link></div><div><b>Visit</b><span>Online Gallery</span><span>hello@artora.gallery</span><span>© 2026 Artora Gallery</span></div></footer>; }

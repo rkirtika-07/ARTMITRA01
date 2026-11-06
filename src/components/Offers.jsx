@@ -1,0 +1,2 @@
+import { Link } from 'react-router-dom';
+export default function Offers() { return <section className="offers"><div><p className="eyebrow">THE ARTORA EDIT</p><h2>Make space for<br/><em>something beautiful.</em></h2><p>Find a piece that makes your space feel like yours.</p><Link className="primary-button" to="/artworks">Explore collection</Link></div><img src="https://images.unsplash.com/photo-1577083552431-6e5fd01aa342?auto=format&fit=crop&w=900&q=85" alt="Colourful modern painting" /></section>; }
